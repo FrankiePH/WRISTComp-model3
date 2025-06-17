@@ -10,6 +10,10 @@
     {
       "name": "WRIST-Development/WRISTComp-core-information-standard",
       "id": "WRIST-Development/WRISTComp-core-information-standard"
+    },
+    {
+      "name": "FrankiePH/WRISTComp-model3",
+      "id": "FrankiePH/WRISTComp-model3"
     }
   ],
   "concept": [
