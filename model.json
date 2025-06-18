@@ -4,12 +4,8 @@
   "description": "<p><br></p>",
   "component_sets": [
     {
-      "name": "FrankiePH/WRISTComp-Model2",
-      "id": "507948a917fbe1566ef99b01d4938df8a7002e6a"
-    },
-    {
-      "name": "FrankiePH/WRISTComp-model3",
-      "id": "0524d78e8d662df6f38e62860944ba333753da5a"
+      "name": "WRIST-Development/WRISTComp-core-information-standard",
+      "id": "43fbda79d0c88ad1bf1674a4276046b312dab647"
     }
   ],
   "concept": [
