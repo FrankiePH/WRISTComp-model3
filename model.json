@@ -1012,6 +1012,2070 @@
           "derivedFrom": "wristcomp_core_information_standard_about_me.supported_to_write_this_by@43fbda79d0c88ad1bf1674a4276046b312dab647"
         },
         {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "description": "The coded value for location.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Coded value",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "5",
+                                  "minLength": "3"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS Data dictionary : -  <a class=\"\" href=\"https://www.datadictionary.nhs.uk/data_dictionary/nhs_business_definitions/o/organisation_data_service_de.asp?shownav=1\" target=\"\" title=\"\" style=\"\">Organisation data service code</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.location.coded_value@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "Free text field to be used if no code is available",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Free text",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "150"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "valueSets": "Free text",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.location.free_text@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        }
+                      ],
+                      "description": "The location where the reasonable adjustment was identified.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Location",
+                      "type": "group",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.location@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "\n                             <p>Under the <a tabindex=\"-1\" class=\"\" aria-disabled=\"false\" title=\"https://www.gov.uk/guidance/equality-act-2010-guidance\" href=\"https://www.gov.uk/guidance/equality-act-2010-guidance\" rel=\"noopener noreferrer\" target=\"_blank\">Equality Act 2010</a>, organisations have a legal duty to make changes in their approach or provision to ensure that services are as accessible to people with disabilities as they are for everybody else. These changes are called reasonable adjustments.</p> \n                             <p>Reasonable adjustments can mean alterations to buildings by providing lifts, wide doors, ramps and tactile signage, but may also mean changes to policies, procedures and staff training to ensure that services work equally well for people with physical or sensory disabilities, learning disabilities or long-term conditions such as dementia.</p> \n                             <p>Other adjustments include longer appointments, providing easy read materials or communications via a carer. This legal duty is anticipatory which means a service should know about a person\u2019s need for adjustments when they are referred or present for care. For this to happen, and for optimum care to be delivered, adjustments need to be recorded and shared across the NHS.</p> \n                        ",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Reasonable adjustment flag",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "type": "boolean"
+                        }
+                      ],
+                      "valueSets": "SNOMED CT: - 1108111000000107 |Requires reasonable adjustments for health and care access (Equality Act 2010) (finding)|",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.reasonable_adjustment_flag@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "concept": [
+                        {
+                          "description": "The coded value for reasonable adjustment",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Coded value",
+                          "type": "item",
+                          "valueSets": "SNOMED CT : - Accessible information standard <br clear=\"none\"/> ^999002121000000109 |Accessible information - communication support simple reference set (foundation metadata concept)| <br clear=\"none\"/> ^999002151000000104 |Accessible information - requires communication professional simple reference set (foundation metadata concept)| <br clear=\"none\"/> ^999002131000000106 |Accessible information - requires specific contact method simple reference set (foundation metadata concept)| <br clear=\"none\"/> ^999002141000000102 |Accessible information - requires specific information format simple reference set (foundation metadata concept)| <br clear=\"none\"/> Refsets for other categories in development",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.reasonable_adjustment.coded_value@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "Free text field to be used if no code is available",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Free text",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "150"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "valueSets": "Free text",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.reasonable_adjustment.free_text@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        }
+                      ],
+                      "description": "The reasonable adjustment required e.g. requires specific contact method, requires communication professional",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Reasonable adjustment",
+                      "type": "group",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.reasonable_adjustment@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Further detail about the support required and the consequence of not providing it.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Reasonable adjustment additional detail",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "Free text",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.reasonable_adjustment_additional_detail@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The date the reasonable adjustment was identified.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Date",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "timeStampPrecision": "YMDHM"
+                            }
+                          ],
+                          "type": "datetime"
+                        }
+                      ],
+                      "valueSets": "Date and time",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.date@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "concept": [
+                        {
+                          "description": "The name of the professional.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Name",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "70"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "Free text.",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.performing_professional.name@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The role the professional has in relation to the person.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Role",
+                          "type": "item",
+                          "valueSets": "FHIR value set : -  <a class=\"\" href=\"https://simplifier.net/ukcore/codesystem-ukcore-sdsjobrolename\" target=\"\" title=\"\">sdsjobrole</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.performing_professional.role@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The grade of the professional.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Grade",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "150"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "valueSets": "Free text",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.performing_professional.grade@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The specialty of the professional.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Speciality",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "3"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary -  <a href=\"https://www.datadictionary.nhs.uk/data_dictionary/attributes/m/main_specialty_code_de.asp?shownav=1?query=%22MAIN+SPECIALTY+CODE%22&rank=100&shownav=1\" target=\"\" title=\"\">Main specialty code</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.performing_professional.speciality@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "Professional identifier for the professional e.g. GMC number, HCPC number etc or the personal identifier used by the local organisation.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Professional identifier",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "32"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary : -  <a href=\"https://datadictionary.nhs.uk/data_elements/professional_registration_entry_identifier.html\" target=\"\" title=\"\">Professional registration identifier</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.performing_professional.professional_identifier@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The name of the organisation the professional works for.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Organisation",
+                          "type": "group",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.performing_professional.organisation@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "Contact details of the professional",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Contact details",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "35"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary -  <a href=\"https://datadictionary.nhs.uk/data_elements/uk_telephone_number.html?hl=number\" target=\"\" title=\"\">UK phone number</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.performing_professional.contact_details@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        }
+                      ],
+                      "description": "The professional who confirmed the need for the reasonable adjustment.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Performing professional",
+                      "type": "group",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.performing_professional@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "concept": [
+                        {
+                          "description": "The name of the person completing the record.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Name",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "70"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "Free text.",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.person_completing_record.name@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The organisational role of the person completing record.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Role",
+                          "type": "item",
+                          "valueSets": "FHIR value set :-  <a href=\"https://simplifier.net/ukcore/codesystem-ukcore-sdsjobrolename\" target=\"\" title=\"\">SDSjobrole</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.person_completing_record.role@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The grade of the person completing the record.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Grade",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "150"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "valueSets": "Free text.",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.person_completing_record.grade@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The main specialty of the person completing the record.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Specialty",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "3"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary :-  <a href=\"https://datadictionary.nhs.uk/data_elements/activity_treatment_function_code.html?hl=activity%2Ctreatment%2Cfunction%2Ccode\" target=\"\" title=\"\">Activity treatment function code</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.person_completing_record.specialty@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The organisation the person completing the record works for.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Organisation",
+                          "type": "group",
+                          "valueSets": "\n                                 <span style=\"color: rgb(51, 51, 51); font-family: Arial, Helvetica, Geneva, sans-serif; font-size: 12px;\">NHS data dictionary : - </span> \n                                 <a href=\"https://www.datadictionary.nhs.uk/supporting_information/organisation_data_service.html\" target=\"\" title=\"\">Organisation data service</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.person_completing_record.organisation@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "Professional identifier for the person completing the record e.g. GMC number, HCPC number etc, or the personal identifier used by the local organisation.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Professional identifier",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "32"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary :-  <a href=\"https://datadictionary.nhs.uk/data_elements/professional_registration_entry_identifier.html\" target=\"\" title=\"\">Professional registration identifier</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.person_completing_record.professional_identifier@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The date and time the record was completed.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Date completed",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "timeStampPrecision": "YMDHM"
+                                }
+                              ],
+                              "type": "datetime"
+                            }
+                          ],
+                          "valueSets": "Date and time.",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.person_completing_record.date_completed@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "Contact details of the person completing the record. <br clear=\"none\"/> \n                            ",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Contact details",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "35"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary : -  <a href=\"https://datadictionary.nhs.uk/data_elements/uk_telephone_number.html?hl=number\" target=\"\" title=\"\">UK telephone number</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.person_completing_record.contact_details@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        }
+                      ],
+                      "description": "A record of the details of the person that entered the reasonable adjustment and the date on which it was entered.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Person completing record",
+                      "type": "group",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry.person_completing_record@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    }
+                  ],
+                  "description": "This is a reasonable adjustment record entry. There may be 0 to many record entries under a section. Each record entry is made up of a number of elements or data items",
+                  "maximumMultiplicity": "*",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Reasonable adjustment record entry",
+                  "type": "group",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment.reasonable_adjustment_record_entry@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                }
+              ],
+              "description": "A record of reasonable adjustments that must be provided by the service to comply with the Equality Act 2010.",
+              "maximumMultiplicity": "1",
+              "minimumMultiplicity": "0",
+              "mro": "R",
+              "name": "Reasonable adjustment",
+              "type": "group",
+              "derivedFrom": "wristcomp_core_information_standard_individual_requirements.reasonable_adjustment@43fbda79d0c88ad1bf1674a4276046b312dab647"
+            },
+            {
+              "concept": [
+                {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "description": "The coded value for location.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Coded value",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "5",
+                                  "minLength": "3"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary: -  <a class=\"\" href=\"https://www.datadictionary.nhs.uk/data_dictionary/nhs_business_definitions/o/organisation_data_service_de.asp?shownav=1#:~:text=The%20Organisation%20Data%20Service%20(ODS)%20is%20provided%20by%20NHS%20Digital.&text=Health%20and%20Social%20Care%20Organisation,associated%20data%20and%20supporting%20products.\" target=\"\" title=\"\">Organisation code service</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.location.coded_value@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "Free text field to be used if no code is available",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Free text",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "150"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "valueSets": "Free text",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.location.free_text@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        }
+                      ],
+                      "description": "The location where the impairment was identified.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Location",
+                      "type": "group",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.location@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "concept": [
+                        {
+                          "description": "The coded value for impairment.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Coded value",
+                          "type": "item",
+                          "valueSets": "SNOMED CT",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.impairment_category.coded_value@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "Free text field to be used if no code is available",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Free text",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "150"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "valueSets": "Free text",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.impairment_category.free_text@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        }
+                      ],
+                      "description": "\n                             <div>The category of the impairment e.g. Autism, Dementia, Physical disability, Sensory disability - such as sight or hearing, Long-term condition</div> \n                        ",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Impairment category",
+                      "type": "group",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.impairment_category@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "\n                             <div>\n                                <br clear=\"none\"/>Description of what the person can do with the impairment, what they want to be able to do and how they should be supported to do it and what the consequences are of not providing the support.</div> \n                             <div/> \n                             <div>Where there is a sensory disability include sensory processing difficulties (e.g. affects to balance and movement, oversensitive, under-sensitive).</div> \n                        ",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Impairment additional detail",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "150"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "valueSets": "Free text",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.impairment_additional_detail@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The date the impairment was identified.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Date",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "timeStampPrecision": "YMDHM"
+                            }
+                          ],
+                          "type": "datetime"
+                        }
+                      ],
+                      "valueSets": "Date and time",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.date@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "concept": [
+                        {
+                          "description": "The name of the professional.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Name",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "70"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "Free text.",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.performing_professional.name@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The role the professional has in relation to the person e.g. GP, physiotherapist, community nurse, social worker etc",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Role",
+                          "type": "item",
+                          "valueSets": "FHIR value set :-  <a class=\"\" href=\"https://simplifier.net/ukcore/codesystem-ukcore-sdsjobrolename\" target=\"\" title=\"\">SDSjobroletype</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.performing_professional.role@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The grade of the professional.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Grade",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "150"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "valueSets": "Free text",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.performing_professional.grade@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The specialty of the professional e.g. physiotherapy, oncology, mental health etc",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Speciality",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "3"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary -  <a href=\"https://datadictionary.nhs.uk/data_elements/activity_treatment_function_code.html?hl=activity%2Ctreatment%2Cfunction%2Ccode\" target=\"\" title=\"\">Activity treatment function code</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.performing_professional.speciality@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "Professional identifier for the professional e.g. GMC number, HCPC number etc or the personal identifier used by the local organisation.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Professional identifier",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "32"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary : -  <a href=\"https://datadictionary.nhs.uk/data_elements/professional_registration_entry_identifier.html\" target=\"\" title=\"\">Professional registration identifier</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.performing_professional.professional_identifier@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The name of the organisation the professional works for.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Organisation",
+                          "type": "group",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.performing_professional.organisation@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "Contact details of the professional",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Contact details",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "35"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary -  <a href=\"https://datadictionary.nhs.uk/data_elements/uk_telephone_number.html?hl=number\" target=\"\" title=\"\">UK phone number</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.performing_professional.contact_details@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        }
+                      ],
+                      "description": "The professional who confirmed the impairment.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Performing professional",
+                      "type": "group",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.performing_professional@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "concept": [
+                        {
+                          "description": "The name of the person completing the record.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Name",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "70"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "Free text.",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.person_completing_record.name@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The organisational role of the person completing record.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Role",
+                          "type": "item",
+                          "valueSets": "FHIR value set :-  <a href=\"https://simplifier.net/ukcore/codesystem-ukcore-sdsjobrolename\" target=\"\" title=\"\">SDSjobrole</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.person_completing_record.role@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The grade of the person completing the record.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Grade",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "150"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "valueSets": "Free text.",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.person_completing_record.grade@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The main specialty of the person completing the record.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Specialty",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "3"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary :-  <a href=\"https://datadictionary.nhs.uk/data_elements/activity_treatment_function_code.html?hl=activity%2Ctreatment%2Cfunction%2Ccode\" target=\"\" title=\"\">Activity treatment function code</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.person_completing_record.specialty@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The organisation the person completing the record works for.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Organisation",
+                          "type": "group",
+                          "valueSets": "\n                                 <span style=\"color: rgb(51, 51, 51); font-family: Arial, Helvetica, Geneva, sans-serif; font-size: 12px;\">NHS data dictionary : - </span> \n                                 <a href=\"https://www.datadictionary.nhs.uk/supporting_information/organisation_data_service.html\" target=\"\" title=\"\">Organisation data service</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.person_completing_record.organisation@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "Professional identifier for the person completing the record e.g. GMC number, HCPC number etc, or the personal identifier used by the local organisation.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Professional identifier",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "32"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary :-  <a href=\"https://datadictionary.nhs.uk/data_elements/professional_registration_entry_identifier.html\" target=\"\" title=\"\">Professional registration identifier</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.person_completing_record.professional_identifier@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "The date and time the record was completed.",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Date completed",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "timeStampPrecision": "YMDHM"
+                                }
+                              ],
+                              "type": "datetime"
+                            }
+                          ],
+                          "valueSets": "Date and time.",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.person_completing_record.date_completed@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        },
+                        {
+                          "description": "Contact details of the person completing the record. <br clear=\"none\"/> \n                            ",
+                          "maximumMultiplicity": "1",
+                          "minimumMultiplicity": "0",
+                          "mro": "R",
+                          "name": "Contact details",
+                          "type": "item",
+                          "valueDomain": [
+                            {
+                              "property": [
+                                {
+                                  "maxLength": "35"
+                                }
+                              ],
+                              "type": "string"
+                            }
+                          ],
+                          "valueSets": "NHS data dictionary : -  <a href=\"https://datadictionary.nhs.uk/data_elements/uk_telephone_number.html?hl=number\" target=\"\" title=\"\">UK telephone number</a> \n                            ",
+                          "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.person_completing_record.contact_details@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                        }
+                      ],
+                      "description": "\n                             <br clear=\"none\"/> A record of the details of the person that entered the impairment and the date on which it was entered.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Person completing record",
+                      "type": "group",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry.person_completing_record@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    }
+                  ],
+                  "description": "This is an impairment record entry. There may be 0 to many record entries under a section. Each record entry is made up of a number of elements or data items",
+                  "maximumMultiplicity": "*",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Impairment record entry",
+                  "type": "group",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment.impairment_record_entry@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                }
+              ],
+              "description": "A record of any impairments for the person relating to reasonable adjustments.",
+              "maximumMultiplicity": "1",
+              "minimumMultiplicity": "0",
+              "mro": "R",
+              "name": "Impairment",
+              "type": "group",
+              "derivedFrom": "wristcomp_core_information_standard_individual_requirements.impairment@43fbda79d0c88ad1bf1674a4276046b312dab647"
+            },
+            {
+              "concept": [
+                {
+                  "description": "The date when the cognitive impairment was identified.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Date",
+                  "type": "item",
+                  "valueDomain": [
+                    {
+                      "property": [
+                        {
+                          "timeStampPrecision": "YMDHM"
+                        }
+                      ],
+                      "type": "datetime"
+                    }
+                  ],
+                  "valueSets": "Date and time",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.date@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                },
+                {
+                  "concept": [
+                    {
+                      "description": "The coded value for location.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Coded value",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "5",
+                              "minLength": "3"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary : -  <a href=\"https://www.datadictionary.nhs.uk/data_dictionary/nhs_business_definitions/o/organisation_data_service_de.asp?shownav=1#:~:text=The%20Organisation%20Data%20Service%20(ODS)%20is%20provided%20by%20NHS%20Digital.&text=Health%20and%20Social%20Care%20Organisation,associated%20data%20and%20supporting%20products.\" target=\"\" title=\"\">Organisation data service</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.location.coded_value@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Free text field to be used if no code is available",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Free text",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "150"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "valueSets": "Free text",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.location.free_text@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    }
+                  ],
+                  "description": "The location where the cognitive impairment was identified.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Location",
+                  "type": "group",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.location@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                },
+                {
+                  "description": "The cognitive impairment to be considered when communicating with the person, child or their primary carer.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Cognition",
+                  "type": "item",
+                  "valueDomain": [
+                    {
+                      "property": [
+                        {
+                          "maxLength": "150"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "valueSets": "Free text",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.cognition@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                },
+                {
+                  "concept": [
+                    {
+                      "description": "The name of the professional.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Name",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "70"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "Free text.",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.performing_professional.name@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The role the professional has in relation to the person e.g. GP, physiotherapist, community nurse, social worker etc",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Role",
+                      "type": "item",
+                      "valueSets": "FHIR value set :-  <a class=\"\" href=\"https://simplifier.net/ukcore/codesystem-ukcore-sdsjobrolename\" target=\"\" title=\"\">SDSjobroletype</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.performing_professional.role@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The grade of the professional.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Grade",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "150"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "valueSets": "Free text",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.performing_professional.grade@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The specialty of the professional e.g. physiotherapy, oncology, mental health etc",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Speciality",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "3"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary -  <a href=\"https://datadictionary.nhs.uk/data_elements/activity_treatment_function_code.html?hl=activity%2Ctreatment%2Cfunction%2Ccode\" target=\"\" title=\"\">Activity treatment function code</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.performing_professional.speciality@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Professional identifier for the professional e.g. GMC number, HCPC number etc or the personal identifier used by the local organisation.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Professional identifier",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "32"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary : -  <a href=\"https://datadictionary.nhs.uk/data_elements/professional_registration_entry_identifier.html\" target=\"\" title=\"\">Professional registration identifier</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.performing_professional.professional_identifier@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The name of the organisation the professional works for.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Organisation",
+                      "type": "group",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.performing_professional.organisation@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Contact details of the professional",
+                      "maximumMultiplicity": "*",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Contact details",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "35"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary -  <a href=\"https://datadictionary.nhs.uk/data_elements/uk_telephone_number.html?hl=number\" target=\"\" title=\"\">UK phone number</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.performing_professional.contact_details@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    }
+                  ],
+                  "description": "The professional who identified the cognitive impairment.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Performing professional",
+                  "type": "group",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.performing_professional@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                },
+                {
+                  "concept": [
+                    {
+                      "description": "The name of the person completing the record.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Name",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "70"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "Free text.",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.person_completing_record.name@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The organisational role of the person completing record.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Role",
+                      "type": "item",
+                      "valueSets": "FHIR value set :-  <a href=\"https://simplifier.net/ukcore/codesystem-ukcore-sdsjobrolename\" target=\"\" title=\"\">SDSjobrole</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.person_completing_record.role@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The grade of the person completing the record.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Grade",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "150"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "valueSets": "Free text.",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.person_completing_record.grade@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The main specialty of the person completing the record.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Specialty",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "3"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary :-  <a href=\"https://datadictionary.nhs.uk/data_elements/activity_treatment_function_code.html?hl=activity%2Ctreatment%2Cfunction%2Ccode\" target=\"\" title=\"\">Activity treatment function code</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.person_completing_record.specialty@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The organisation the person completing the record works for.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Organisation",
+                      "type": "group",
+                      "valueSets": "\n                             <span style=\"color: rgb(51, 51, 51); font-family: Arial, Helvetica, Geneva, sans-serif; font-size: 12px;\">NHS data dictionary : - </span> \n                             <a href=\"https://www.datadictionary.nhs.uk/supporting_information/organisation_data_service.html\" target=\"\" title=\"\">Organisation data service</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.person_completing_record.organisation@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Professional identifier for the person completing the record e.g. GMC number, HCPC number etc, or the personal identifier used by the local organisation.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Professional identifier",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "32"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary :-  <a href=\"https://datadictionary.nhs.uk/data_elements/professional_registration_entry_identifier.html\" target=\"\" title=\"\">Professional registration identifier</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.person_completing_record.professional_identifier@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The date and time the record was completed.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Date completed",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "timeStampPrecision": "YMDHM"
+                            }
+                          ],
+                          "type": "datetime"
+                        }
+                      ],
+                      "valueSets": "Date and time.",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.person_completing_record.date_completed@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Contact details of the person completing the record. <br clear=\"none\"/> \n                        ",
+                      "maximumMultiplicity": "*",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Contact details",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "35"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary : -  <a href=\"https://datadictionary.nhs.uk/data_elements/uk_telephone_number.html?hl=number\" target=\"\" title=\"\">UK telephone number</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.person_completing_record.contact_details@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    }
+                  ],
+                  "description": "Details of the person completing the record.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Person completing record",
+                  "type": "group",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition.person_completing_record@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                }
+              ],
+              "description": "Details of the persons cognitive impairment.",
+              "maximumMultiplicity": "*",
+              "minimumMultiplicity": "0",
+              "mro": "R",
+              "name": "Cognition",
+              "type": "group",
+              "derivedFrom": "wristcomp_core_information_standard_individual_requirements.cognition@43fbda79d0c88ad1bf1674a4276046b312dab647"
+            },
+            {
+              "concept": [
+                {
+                  "description": "The date when the mobility needs were identified.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Date",
+                  "type": "item",
+                  "valueDomain": [
+                    {
+                      "property": [
+                        {
+                          "timeStampPrecision": "YMDHM"
+                        }
+                      ],
+                      "type": "datetime"
+                    }
+                  ],
+                  "valueSets": "Date and time",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.date@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                },
+                {
+                  "concept": [
+                    {
+                      "description": "The coded value for location.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Coded value",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "5",
+                              "minLength": "3"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary : -  <a href=\"https://www.datadictionary.nhs.uk/data_dictionary/nhs_business_definitions/o/organisation_data_service_de.asp?shownav=1#:~:text=The%20Organisation%20Data%20Service%20(ODS)%20is%20provided%20by%20NHS%20Digital.&text=Health%20and%20Social%20Care%20Organisation,associated%20data%20and%20supporting%20products.\" target=\"\" title=\"\">Organisation data service</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.location.coded_value@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Free text field to be used if no coded text available",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Free text",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "150"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.location.free_text@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    }
+                  ],
+                  "description": "The location where the mobility needs were identified.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Location",
+                  "type": "group",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.location@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                },
+                {
+                  "concept": [
+                    {
+                      "description": "The coded value for mobility needs",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Coded value",
+                      "type": "item",
+                      "valueSets": "SNOMED CT: - ^999002551000000108 |Mobility findings simple reference set (foundation metadata concept)|",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.mobility_needs.coded_value@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Free text field to be used if no code is available",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Free text",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "150"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "valueSets": "Free text",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.mobility_needs.free_text@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    }
+                  ],
+                  "description": "The mobility needs of the person that allows movement between two spaces and achieves participation and a degree of independence.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Mobility needs",
+                  "type": "group",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.mobility_needs@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                },
+                {
+                  "concept": [
+                    {
+                      "description": "The name of the professional.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Name",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "70"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "Free text.",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.performing_professional.name@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The role the professional has in relation to the person e.g. GP, physiotherapist, community nurse, social worker etc",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Role",
+                      "type": "item",
+                      "valueSets": "FHIR value set :-  <a class=\"\" href=\"https://simplifier.net/ukcore/codesystem-ukcore-sdsjobrolename\" target=\"\" title=\"\">SDSjobroletype</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.performing_professional.role@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The grade of the professional.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Grade",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "150"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "valueSets": "Free text",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.performing_professional.grade@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The specialty of the professional e.g. physiotherapy, oncology, mental health etc",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Speciality",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "3"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary -  <a href=\"https://datadictionary.nhs.uk/data_elements/activity_treatment_function_code.html?hl=activity%2Ctreatment%2Cfunction%2Ccode\" target=\"\" title=\"\">Activity treatment function code</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.performing_professional.speciality@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Professional identifier for the professional e.g. GMC number, HCPC number etc or the personal identifier used by the local organisation.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Professional identifier",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "32"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary : -  <a href=\"https://datadictionary.nhs.uk/data_elements/professional_registration_entry_identifier.html\" target=\"\" title=\"\">Professional registration identifier</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.performing_professional.professional_identifier@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The name of the organisation the professional works for.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Organisation",
+                      "type": "group",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.performing_professional.organisation@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Contact details of the professional",
+                      "maximumMultiplicity": "*",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Contact details",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "35"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary -  <a href=\"https://datadictionary.nhs.uk/data_elements/uk_telephone_number.html?hl=number\" target=\"\" title=\"\">UK phone number</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.performing_professional.contact_details@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    }
+                  ],
+                  "description": "The professional who identified the mobility needs.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Performing professional",
+                  "type": "group",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.performing_professional@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                },
+                {
+                  "concept": [
+                    {
+                      "description": "The name of the person completing the record.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Name",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "70"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "Free text.",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.person_completing_record.name@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The organisational role of the person completing record.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Role",
+                      "type": "item",
+                      "valueSets": "FHIR value set :-  <a href=\"https://simplifier.net/ukcore/codesystem-ukcore-sdsjobrolename\" target=\"\" title=\"\">SDSjobrole</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.person_completing_record.role@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The grade of the person completing the record.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Grade",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "150"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "valueSets": "Free text.",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.person_completing_record.grade@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The main specialty of the person completing the record.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Specialty",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "3"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary :-  <a href=\"https://datadictionary.nhs.uk/data_elements/activity_treatment_function_code.html?hl=activity%2Ctreatment%2Cfunction%2Ccode\" target=\"\" title=\"\">Activity treatment function code</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.person_completing_record.specialty@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The organisation the person completing the record works for.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Organisation",
+                      "type": "group",
+                      "valueSets": "\n                             <span style=\"color: rgb(51, 51, 51); font-family: Arial, Helvetica, Geneva, sans-serif; font-size: 12px;\">NHS data dictionary : - </span> \n                             <a href=\"https://www.datadictionary.nhs.uk/supporting_information/organisation_data_service.html\" target=\"\" title=\"\">Organisation data service</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.person_completing_record.organisation@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Professional identifier for the person completing the record e.g. GMC number, HCPC number etc, or the personal identifier used by the local organisation.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Professional identifier",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "32"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary :-  <a href=\"https://datadictionary.nhs.uk/data_elements/professional_registration_entry_identifier.html\" target=\"\" title=\"\">Professional registration identifier</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.person_completing_record.professional_identifier@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The date and time the record was completed.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Date completed",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "timeStampPrecision": "YMDHM"
+                            }
+                          ],
+                          "type": "datetime"
+                        }
+                      ],
+                      "valueSets": "Date and time.",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.person_completing_record.date_completed@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Contact details of the person completing the record. <br clear=\"none\"/> \n                        ",
+                      "maximumMultiplicity": "*",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Contact details",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "35"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary : -  <a href=\"https://datadictionary.nhs.uk/data_elements/uk_telephone_number.html?hl=number\" target=\"\" title=\"\">UK telephone number</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.person_completing_record.contact_details@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    }
+                  ],
+                  "description": "Details of the person completing the record.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Person completing record",
+                  "type": "group",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility.person_completing_record@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                }
+              ],
+              "description": "Details of the person's mobility needs.",
+              "maximumMultiplicity": "*",
+              "minimumMultiplicity": "0",
+              "mro": "R",
+              "name": "Mobility",
+              "type": "group",
+              "derivedFrom": "wristcomp_core_information_standard_individual_requirements.mobility@43fbda79d0c88ad1bf1674a4276046b312dab647"
+            },
+            {
+              "concept": [
+                {
+                  "description": "The date when the other individual requirements were identified.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Date",
+                  "type": "item",
+                  "valueDomain": [
+                    {
+                      "property": [
+                        {
+                          "timeStampPrecision": "YMD"
+                        }
+                      ],
+                      "type": "datetime"
+                    }
+                  ],
+                  "valueSets": "Date and time",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.date@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                },
+                {
+                  "concept": [
+                    {
+                      "description": "The coded value for location.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Coded value",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "5",
+                              "minLength": "3"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary : -  <a href=\"https://www.datadictionary.nhs.uk/data_dictionary/nhs_business_definitions/o/organisation_data_service_de.asp?shownav=1#:~:text=The%20Organisation%20Data%20Service%20(ODS)%20is%20provided%20by%20NHS%20Digital.&text=Health%20and%20Social%20Care%20Organisation,associated%20data%20and%20supporting%20products.\" target=\"\" title=\"\">Organisation service code</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.location.coded_value@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Free text field to be used if no coded text available",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Free text",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "150"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.location.free_text@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    }
+                  ],
+                  "description": "The location where the other individual requirements were identified.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Location",
+                  "type": "group",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.location@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                },
+                {
+                  "description": "Other individual requirements that a person may have.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Other individual requirement",
+                  "type": "item",
+                  "valueDomain": [
+                    {
+                      "property": [
+                        {
+                          "maxLength": "150"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "valueSets": "Free text",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.other_individual_requirement@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                },
+                {
+                  "concept": [
+                    {
+                      "description": "The name of the professional.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Name",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "70"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "Free text.",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.performing_professional.name@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The role the professional has in relation to the person e.g. GP, physiotherapist, community nurse, social worker etc",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Role",
+                      "type": "item",
+                      "valueSets": "FHIR value set :-  <a class=\"\" href=\"https://simplifier.net/ukcore/codesystem-ukcore-sdsjobrolename\" target=\"\" title=\"\">SDSjobroletype</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.performing_professional.role@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The grade of the professional.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Grade",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "150"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "valueSets": "Free text",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.performing_professional.grade@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The specialty of the professional e.g. physiotherapy, oncology, mental health etc",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Speciality",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "3"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary -  <a href=\"https://datadictionary.nhs.uk/data_elements/activity_treatment_function_code.html?hl=activity%2Ctreatment%2Cfunction%2Ccode\" target=\"\" title=\"\">Activity treatment function code</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.performing_professional.speciality@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Professional identifier for the professional e.g. GMC number, HCPC number etc or the personal identifier used by the local organisation.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Professional identifier",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "32"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary : -  <a href=\"https://datadictionary.nhs.uk/data_elements/professional_registration_entry_identifier.html\" target=\"\" title=\"\">Professional registration identifier</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.performing_professional.professional_identifier@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The name of the organisation the professional works for.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Organisation",
+                      "type": "group",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.performing_professional.organisation@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Contact details of the professional",
+                      "maximumMultiplicity": "*",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Contact details",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "35"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary -  <a href=\"https://datadictionary.nhs.uk/data_elements/uk_telephone_number.html?hl=number\" target=\"\" title=\"\">UK phone number</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.performing_professional.contact_details@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    }
+                  ],
+                  "description": "The professional who identified the other individual requirements.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Performing professional",
+                  "type": "group",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.performing_professional@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                },
+                {
+                  "concept": [
+                    {
+                      "description": "The name of the person completing the record.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Name",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "70"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "Free text.",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.person_completing_record.name@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The organisational role of the person completing record.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Role",
+                      "type": "item",
+                      "valueSets": "FHIR value set :-  <a href=\"https://simplifier.net/ukcore/codesystem-ukcore-sdsjobrolename\" target=\"\" title=\"\">SDSjobrole</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.person_completing_record.role@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The grade of the person completing the record.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Grade",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "150"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "valueSets": "Free text.",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.person_completing_record.grade@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The main specialty of the person completing the record.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Specialty",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "3"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary :-  <a href=\"https://datadictionary.nhs.uk/data_elements/activity_treatment_function_code.html?hl=activity%2Ctreatment%2Cfunction%2Ccode\" target=\"\" title=\"\">Activity treatment function code</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.person_completing_record.specialty@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The organisation the person completing the record works for.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Organisation",
+                      "type": "group",
+                      "valueSets": "\n                             <span style=\"color: rgb(51, 51, 51); font-family: Arial, Helvetica, Geneva, sans-serif; font-size: 12px;\">NHS data dictionary : - </span> \n                             <a href=\"https://www.datadictionary.nhs.uk/supporting_information/organisation_data_service.html\" target=\"\" title=\"\">Organisation data service</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.person_completing_record.organisation@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Professional identifier for the person completing the record e.g. GMC number, HCPC number etc, or the personal identifier used by the local organisation.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Professional identifier",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "32"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary :-  <a href=\"https://datadictionary.nhs.uk/data_elements/professional_registration_entry_identifier.html\" target=\"\" title=\"\">Professional registration identifier</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.person_completing_record.professional_identifier@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "The date and time the record was completed.",
+                      "maximumMultiplicity": "1",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Date completed",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "timeStampPrecision": "YMDHM"
+                            }
+                          ],
+                          "type": "datetime"
+                        }
+                      ],
+                      "valueSets": "Date and time.",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.person_completing_record.date_completed@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    },
+                    {
+                      "description": "Contact details of the person completing the record. <br clear=\"none\"/> \n                        ",
+                      "maximumMultiplicity": "*",
+                      "minimumMultiplicity": "0",
+                      "mro": "R",
+                      "name": "Contact details",
+                      "type": "item",
+                      "valueDomain": [
+                        {
+                          "property": [
+                            {
+                              "maxLength": "35"
+                            }
+                          ],
+                          "type": "string"
+                        }
+                      ],
+                      "valueSets": "NHS data dictionary : -  <a href=\"https://datadictionary.nhs.uk/data_elements/uk_telephone_number.html?hl=number\" target=\"\" title=\"\">UK telephone number</a> \n                        ",
+                      "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.person_completing_record.contact_details@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                    }
+                  ],
+                  "description": "Details of the person completing the record.",
+                  "maximumMultiplicity": "1",
+                  "minimumMultiplicity": "0",
+                  "mro": "R",
+                  "name": "Person completing record",
+                  "type": "group",
+                  "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements.person_completing_record@43fbda79d0c88ad1bf1674a4276046b312dab647"
+                }
+              ],
+              "description": "Details of any other individual requirements the person may have",
+              "maximumMultiplicity": "*",
+              "minimumMultiplicity": "0",
+              "mro": "R",
+              "name": "Other individual requirements",
+              "type": "group",
+              "derivedFrom": "wristcomp_core_information_standard_individual_requirements.other_individual_requirements@43fbda79d0c88ad1bf1674a4276046b312dab647"
+            }
+          ],
+          "description": "The individual requirements of the person.",
+          "maximumMultiplicity": "1",
+          "minimumMultiplicity": "0",
+          "mro": "R",
+          "name": "Individual requirements",
+          "type": "group",
+          "derivedFrom": "wristcomp_core_information_standard_individual_requirements@43fbda79d0c88ad1bf1674a4276046b312dab647"
+        },
+        {
           "description": "The link to the person's multimedia file",
           "maximumMultiplicity": "1",
           "minimumMultiplicity": "0",
