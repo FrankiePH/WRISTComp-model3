@@ -3071,9 +3071,11 @@
           "maximumMultiplicity": "1",
           "minimumMultiplicity": "0",
           "mro": "R",
-          "name": "Individual requirements",
+          "name": "Individual requirements for charlie",
           "type": "group",
-          "derivedFrom": "wristcomp_core_information_standard_individual_requirements@43fbda79d0c88ad1bf1674a4276046b312dab647"
+          "derivedFrom": "wristcomp_core_information_standard_individual_requirements@43fbda79d0c88ad1bf1674a4276046b312dab647",
+          "informationType": "",
+          "implamentationGuidance": ""
         },
         {
           "description": "The link to the person's multimedia file",
