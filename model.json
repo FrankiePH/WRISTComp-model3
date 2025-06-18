@@ -280,6 +280,18 @@
       "name": "About me",
       "type": "group",
       "derivedFrom": "wristcomp_core_information_standard_about_me@43fbda79d0c88ad1bf1674a4276046b312dab647"
+    },
+    {
+      "name": "New Item",
+      "mro": "M",
+      "description": "",
+      "valueSets": "",
+      "implamentationGuidance": "",
+      "informationType": "Record",
+      "type": "item",
+      "minimumMultiplicity": "0",
+      "maximumMultiplicity": "1",
+      "concept": []
     }
   ]
 }
