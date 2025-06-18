@@ -3120,6 +3120,18 @@
       "minimumMultiplicity": "0",
       "maximumMultiplicity": "1",
       "concept": []
+    },
+    {
+      "description": "",
+      "implamentationGuidance": "",
+      "informationType": "Record",
+      "maximumMultiplicity": "1",
+      "minimumMultiplicity": "0",
+      "mro": "M",
+      "name": "Item",
+      "type": "item",
+      "valueSets": "",
+      "derivedFrom": "wristcomp_model2_item@507948a917fbe1566ef99b01d4938df8a7002e6a"
     }
   ]
 }
