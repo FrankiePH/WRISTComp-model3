@@ -3122,6 +3122,19 @@
       "concept": []
     },
     {
+      "concept": [],
+      "description": "",
+      "implamentationGuidance": "",
+      "informationType": "Record",
+      "maximumMultiplicity": "1",
+      "minimumMultiplicity": "0",
+      "mro": "M",
+      "name": "New Item",
+      "type": "item",
+      "valueSets": "",
+      "derivedFrom": "wristcomp_model3_new_item@5c3cf8b0b16221e18e64c069d9bbc277eba818f1"
+    },
+    {
       "description": "",
       "implamentationGuidance": "",
       "informationType": "Record",
